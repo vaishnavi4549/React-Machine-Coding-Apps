@@ -1,23 +1,23 @@
 export const directory = {
   id: 1,
   name: "root",
-  isFolder: true,
+  isfolder: true,
   items: [
     {
       id: 2,
       name: "public",
-      isFolder: true,
+      isfolder: true,
       items: [
         {
           id: 3,
           name: "index.html",
-          isFolder: false,
+          isfolder: false,
           items: [],
         },
         {
           id: 4,
           name: "home.html",
-          isFolder: false,
+          isfolder: false,
           items: [],
         },
       ],
@@ -25,18 +25,18 @@ export const directory = {
     {
       id: 5,
       name: "src",
-      isFolder: true,
+      isfolder: true,
       items: [
         {
           id: 6,
           name: "index.html",
-          isFolder: false,
+          isfolder: false,
           items: [],
         },
         {
           id: 7,
           name: "home.html",
-          isFolder: false,
+          isfolder: false,
           items: [],
         },
       ],
@@ -44,13 +44,13 @@ export const directory = {
     {
       id: 8,
       name: "file1.html",
-      isFolder: false,
+      isfolder: false,
       items: [],
     },
     {
       id: 9,
       name: "file2.html",
-      isFolder: false,
+      isfolder: false,
       items: [],
     },
   ],
