@@ -7,8 +7,6 @@ export const Structure=({directoryData})=>{
         return(
             <div style={{
                 display: 'flex',
-                flexDirection: 'column',
-                width:'60%',
                 cursor: 'pointer',
             }}>
                 <div>
